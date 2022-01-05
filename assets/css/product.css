@@ -35,42 +35,15 @@ html{
 	background-color:#242424;
 
 }
-
-a.social-icon{
-	color:#242424;
-}
-
-a.social-icon:hover{
-	color:#c0aa83;
-}
-
-.social-icon{
-	background-color: #ECE4C3;
-	width: 80px;
-	height: 80px;
-	padding:20px;
-	margin: 10px;
-}
-
-.social-icon a{
-	background-color: #B98C45;
-	width: 50px;
-	height: 50px;
-	padding:10px 16px;
-	margin-right: 6px;
-	position: relative;
-	display: block;
-
-}
-
-.social-icon a:hover{
-	color:#242424;
-
+.card-text{
+	color: rgb(88 85 85);
+	font-size: 17px;
+	margin-top: 2px;
 }
 
 
 .page-section{
-	padding: 8rem 0;
+	padding: 1rem 0;
 }
 
 .main-menu{
@@ -138,15 +111,12 @@ a.link-menu{
 }
 
 #mainNav .navbar-brand {
-
-	 
 	font-weight: 700;
 
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
 	color:#242424;
-	 
 	font-size: 0.9rem;
 	font-weight: 700;
 	padding:0.75rem 0;
@@ -283,7 +253,9 @@ a.explore-link:hover{
 	/* font-weight: 900; */
 	cursor: pointer;
 }
-
+.blog-sidebar-list:hover{
+	color: rgb(12, 184, 182);
+}
 .blog-sidebar-text{
 	color: #242424;
 	 
@@ -294,7 +266,7 @@ a.explore-link:hover{
 .blog-form{
 	background-color: #F4F4F4; 
 	padding: 50px;
-	height: 920px;
+	height: 900px;
 }
 
 
@@ -307,20 +279,13 @@ a.explore-link:hover{
 }
 
 .card-title{
-	color: rgb(12, 184, 182);
-	 
-	/* font-size: 25px; */
+	/* color: rgb(12, 184, 182); */
+	font-size: 17px;
 	/* font-weight: 900; */
 }
-
-
-.price-tag{
-	color: #c0aa83;
-	 
-	font-size: 25px;
-	font-weight: 900;
+#hum{
+display: none;
 }
-
 .button-text{
 	 
 	font-size: 14px;
@@ -330,4 +295,18 @@ a.explore-link:hover{
 .product-image{
 	width: 200px;
 	height: 200px;
+}
+
+
+@media screen and (max-width: 480px){
+	#togMenu{
+		display: none;
+		/* display: absolute;
+		height: 100vh;
+		background-color: coral;
+		z-index: 100; */
+	}
+	#hum{
+		display: block;
+	}
 }

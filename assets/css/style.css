@@ -432,7 +432,7 @@ a:hover {
 
 .st-sticky-footer {
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   overflow: hidden; }
@@ -5329,3 +5329,110 @@ RTL - Right to Left
     padding-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.aboutbx{
+  /* border: 2px solid red; */
+  /* min-height: 350px; */
+  width: 100%;
+  color: white;
+  position: relative;
+}
+.aboutbx img{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.aboutbx .para{
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 1%;
+  padding: 8rem 3rem;
+  background-color: #0000008a;
+}.aboutbx .para h2{
+  color: #0cb8b6;
+}
+.aboutbx .para a{
+  width: 30%;
+}
+/* why us  */
+/* .why-us{
+  border: 2px solid red;
+} */
+/* .col{
+  border: 2px solid black;
+} */
+.whyPara {
+  padding: 29px;
+}
+.whyPara h2{
+  color: #0cb8b6;
+}
+.whyPara ul li{
+  list-style: none;
+  margin: 3px;
+}
+.whyPara ul li i{
+  color: #03dcec;
+  font-size: 19px;
+}
+.whyimg img{
+width: 100%;
+height: 300px;
+object-fit: contain;
+}
+
+
+
+/* contact  */
+.addbx h3{
+  color: #0cb8b6;
+}
+.addbx .headText{
+  color: black;
+  font-weight: 600;
+}
+.addbx p a{
+  color: #0cb8b6;
+}
+.addbx p a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+  .aboutbx .para{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }.aboutbx .para a{
+    width: 40%;
+  }
+  .whyPara h2{
+    text-align: center;
+  }
+  .whyPara p{
+    text-align: center;
+  }
+  .whyimg{
+    display: none;
+  }
+
+
+
+}
